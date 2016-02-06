@@ -1,0 +1,14 @@
+PODS:
+  - whawhawhatLib (0.1.0)
+
+DEPENDENCIES:
+  - whawhawhatLib (from `../`)
+
+EXTERNAL SOURCES:
+  whawhawhatLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  whawhawhatLib: 6b02ac85483479e1602d1e6e92da192c18d0ccc3
+
+COCOAPODS: 0.39.0
