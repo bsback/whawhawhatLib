@@ -10,7 +10,6 @@
 
 @interface TWIndexedButton : UIButton
 @property int index;
-
 @property int section;
 @property int row;
 @end
