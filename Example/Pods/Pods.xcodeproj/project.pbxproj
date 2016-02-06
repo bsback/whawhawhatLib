@@ -15,9 +15,88 @@
 		9E51CB41DF8D3A0BB9AAEB58A510102E /* Pods-whawhawhatLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C531416285FE0AA923133A8C88F1FD1 /* Pods-whawhawhatLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7EC71A2B3DFFC1F062C7F1655929E54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		C20805B5086999A83AD66696D413A5AC /* whawhawhatLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD6FFCCD9D4BECCBDACA9AB5D80850 /* whawhawhatLib-dummy.m */; };
-		C2EA15805A1AD03F0DD05A4F317CC360 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AF78A9508F9FF8D92A58B7AD2F34EE9C /* ReplaceMe.m */; };
 		E3733236C1F9E96935B7E5D66107BAB5 /* whawhawhatLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC474CBF77111EE6CDCE3FA905EBC252 /* whawhawhatLib.bundle */; };
 		F96EA8BE5E384659616766676F39CD5F /* Pods-whawhawhatLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E59D05ABF054C058661E119BDB1CB7 /* Pods-whawhawhatLib_Example-dummy.m */; };
+		FF0844981C65F988001F2767 /* Jastor.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844941C65F988001F2767 /* Jastor.h */; };
+		FF0844991C65F988001F2767 /* Jastor.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844941C65F988001F2767 /* Jastor.h */; };
+		FF08449A1C65F988001F2767 /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844951C65F988001F2767 /* Jastor.m */; };
+		FF08449B1C65F988001F2767 /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844951C65F988001F2767 /* Jastor.m */; };
+		FF08449C1C65F988001F2767 /* JastorRuntimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844961C65F988001F2767 /* JastorRuntimeHelper.h */; };
+		FF08449D1C65F988001F2767 /* JastorRuntimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844961C65F988001F2767 /* JastorRuntimeHelper.h */; };
+		FF08449E1C65F988001F2767 /* JastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844971C65F988001F2767 /* JastorRuntimeHelper.m */; };
+		FF08449F1C65F988001F2767 /* JastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844971C65F988001F2767 /* JastorRuntimeHelper.m */; };
+		FF0844A31C65F9AC001F2767 /* SCNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844A11C65F9AC001F2767 /* SCNavigationBar.h */; };
+		FF0844A41C65F9AC001F2767 /* SCNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844A11C65F9AC001F2767 /* SCNavigationBar.h */; };
+		FF0844A51C65F9AC001F2767 /* SCNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844A21C65F9AC001F2767 /* SCNavigationBar.m */; };
+		FF0844A61C65F9AC001F2767 /* SCNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844A21C65F9AC001F2767 /* SCNavigationBar.m */; };
+		FF0844AC1C65F9BF001F2767 /* TWAppUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844A81C65F9BF001F2767 /* TWAppUtils.h */; };
+		FF0844AD1C65F9BF001F2767 /* TWAppUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844A81C65F9BF001F2767 /* TWAppUtils.h */; };
+		FF0844AE1C65F9BF001F2767 /* TWAppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844A91C65F9BF001F2767 /* TWAppUtils.m */; };
+		FF0844AF1C65F9BF001F2767 /* TWAppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844A91C65F9BF001F2767 /* TWAppUtils.m */; };
+		FF0844B01C65F9BF001F2767 /* TWDeviceUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844AA1C65F9BF001F2767 /* TWDeviceUtils.h */; };
+		FF0844B11C65F9BF001F2767 /* TWDeviceUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844AA1C65F9BF001F2767 /* TWDeviceUtils.h */; };
+		FF0844B21C65F9BF001F2767 /* TWDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844AB1C65F9BF001F2767 /* TWDeviceUtils.m */; };
+		FF0844B31C65F9BF001F2767 /* TWDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844AB1C65F9BF001F2767 /* TWDeviceUtils.m */; };
+		FF0844BD1C65F9D7001F2767 /* TWCheckbox.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844B51C65F9D7001F2767 /* TWCheckbox.h */; };
+		FF0844BE1C65F9D7001F2767 /* TWCheckbox.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844B51C65F9D7001F2767 /* TWCheckbox.h */; };
+		FF0844BF1C65F9D7001F2767 /* TWCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844B61C65F9D7001F2767 /* TWCheckbox.m */; };
+		FF0844C01C65F9D7001F2767 /* TWCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844B61C65F9D7001F2767 /* TWCheckbox.m */; };
+		FF0844C11C65F9D7001F2767 /* TWRectView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844B71C65F9D7001F2767 /* TWRectView.h */; };
+		FF0844C21C65F9D7001F2767 /* TWRectView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844B71C65F9D7001F2767 /* TWRectView.h */; };
+		FF0844C31C65F9D7001F2767 /* TWRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844B81C65F9D7001F2767 /* TWRectView.m */; };
+		FF0844C41C65F9D7001F2767 /* TWRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844B81C65F9D7001F2767 /* TWRectView.m */; };
+		FF0844C51C65F9D7001F2767 /* TWIndexedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844B91C65F9D7001F2767 /* TWIndexedButton.h */; };
+		FF0844C61C65F9D7001F2767 /* TWIndexedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844B91C65F9D7001F2767 /* TWIndexedButton.h */; };
+		FF0844C71C65F9D7001F2767 /* TWIndexedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844BA1C65F9D7001F2767 /* TWIndexedButton.m */; };
+		FF0844C81C65F9D7001F2767 /* TWIndexedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844BA1C65F9D7001F2767 /* TWIndexedButton.m */; };
+		FF0844C91C65F9D7001F2767 /* TWView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844BB1C65F9D7001F2767 /* TWView.h */; };
+		FF0844CA1C65F9D7001F2767 /* TWView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844BB1C65F9D7001F2767 /* TWView.h */; };
+		FF0844CB1C65F9D7001F2767 /* TWView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844BC1C65F9D7001F2767 /* TWView.m */; };
+		FF0844CC1C65F9D7001F2767 /* TWView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844BC1C65F9D7001F2767 /* TWView.m */; };
+		FF0844E21C65F9EA001F2767 /* NSString+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844CE1C65F9EA001F2767 /* NSString+Whawhawhat.h */; };
+		FF0844E31C65F9EA001F2767 /* NSString+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844CE1C65F9EA001F2767 /* NSString+Whawhawhat.h */; };
+		FF0844E41C65F9EA001F2767 /* NSString+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844CF1C65F9EA001F2767 /* NSString+Whawhawhat.m */; };
+		FF0844E51C65F9EA001F2767 /* NSString+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844CF1C65F9EA001F2767 /* NSString+Whawhawhat.m */; };
+		FF0844E61C65F9EA001F2767 /* NSData+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844D01C65F9EA001F2767 /* NSData+Whawhawhat.h */; };
+		FF0844E71C65F9EA001F2767 /* NSData+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844D01C65F9EA001F2767 /* NSData+Whawhawhat.h */; };
+		FF0844E81C65F9EA001F2767 /* NSData+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844D11C65F9EA001F2767 /* NSData+Whawhawhat.m */; };
+		FF0844E91C65F9EA001F2767 /* NSData+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844D11C65F9EA001F2767 /* NSData+Whawhawhat.m */; };
+		FF0844EA1C65F9EA001F2767 /* UITableView+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844D21C65F9EA001F2767 /* UITableView+Whawhawhat.h */; };
+		FF0844EB1C65F9EA001F2767 /* UITableView+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844D21C65F9EA001F2767 /* UITableView+Whawhawhat.h */; };
+		FF0844EC1C65F9EA001F2767 /* UITableView+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844D31C65F9EA001F2767 /* UITableView+Whawhawhat.m */; };
+		FF0844ED1C65F9EA001F2767 /* UITableView+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844D31C65F9EA001F2767 /* UITableView+Whawhawhat.m */; };
+		FF0844EE1C65F9EA001F2767 /* UIColor+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844D41C65F9EA001F2767 /* UIColor+Whawhawhat.h */; };
+		FF0844EF1C65F9EA001F2767 /* UIColor+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844D41C65F9EA001F2767 /* UIColor+Whawhawhat.h */; };
+		FF0844F01C65F9EA001F2767 /* UIColor+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844D51C65F9EA001F2767 /* UIColor+Whawhawhat.m */; };
+		FF0844F11C65F9EA001F2767 /* UIColor+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844D51C65F9EA001F2767 /* UIColor+Whawhawhat.m */; };
+		FF0844F21C65F9EA001F2767 /* UIImage+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844D61C65F9EA001F2767 /* UIImage+Whawhawhat.h */; };
+		FF0844F31C65F9EA001F2767 /* UIImage+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844D61C65F9EA001F2767 /* UIImage+Whawhawhat.h */; };
+		FF0844F41C65F9EA001F2767 /* UIImage+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844D71C65F9EA001F2767 /* UIImage+Whawhawhat.m */; };
+		FF0844F51C65F9EA001F2767 /* UIImage+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844D71C65F9EA001F2767 /* UIImage+Whawhawhat.m */; };
+		FF0844F61C65F9EA001F2767 /* NSDate+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844D81C65F9EA001F2767 /* NSDate+Whawhawhat.h */; };
+		FF0844F71C65F9EA001F2767 /* NSDate+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844D81C65F9EA001F2767 /* NSDate+Whawhawhat.h */; };
+		FF0844F81C65F9EA001F2767 /* NSDate+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844D91C65F9EA001F2767 /* NSDate+Whawhawhat.m */; };
+		FF0844F91C65F9EA001F2767 /* NSDate+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844D91C65F9EA001F2767 /* NSDate+Whawhawhat.m */; };
+		FF0844FA1C65F9EA001F2767 /* UINavigationController+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844DA1C65F9EA001F2767 /* UINavigationController+Whawhawhat.h */; };
+		FF0844FB1C65F9EA001F2767 /* UINavigationController+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844DA1C65F9EA001F2767 /* UINavigationController+Whawhawhat.h */; };
+		FF0844FC1C65F9EA001F2767 /* UINavigationController+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844DB1C65F9EA001F2767 /* UINavigationController+Whawhawhat.m */; };
+		FF0844FD1C65F9EA001F2767 /* UINavigationController+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844DB1C65F9EA001F2767 /* UINavigationController+Whawhawhat.m */; };
+		FF0844FE1C65F9EA001F2767 /* UILabel+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844DC1C65F9EA001F2767 /* UILabel+Whawhawhat.h */; };
+		FF0844FF1C65F9EA001F2767 /* UILabel+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844DC1C65F9EA001F2767 /* UILabel+Whawhawhat.h */; };
+		FF0845001C65F9EA001F2767 /* UILabel+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844DD1C65F9EA001F2767 /* UILabel+Whawhawhat.m */; };
+		FF0845011C65F9EA001F2767 /* UILabel+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844DD1C65F9EA001F2767 /* UILabel+Whawhawhat.m */; };
+		FF0845021C65F9EA001F2767 /* UIView+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844DE1C65F9EA001F2767 /* UIView+Whawhawhat.h */; };
+		FF0845031C65F9EA001F2767 /* UIView+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844DE1C65F9EA001F2767 /* UIView+Whawhawhat.h */; };
+		FF0845041C65F9EA001F2767 /* UIView+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844DF1C65F9EA001F2767 /* UIView+Whawhawhat.m */; };
+		FF0845051C65F9EA001F2767 /* UIView+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844DF1C65F9EA001F2767 /* UIView+Whawhawhat.m */; };
+		FF0845061C65F9EA001F2767 /* UIButton+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844E01C65F9EA001F2767 /* UIButton+Whawhawhat.h */; };
+		FF0845071C65F9EA001F2767 /* UIButton+Whawhawhat.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0844E01C65F9EA001F2767 /* UIButton+Whawhawhat.h */; };
+		FF0845081C65F9EA001F2767 /* UIButton+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844E11C65F9EA001F2767 /* UIButton+Whawhawhat.m */; };
+		FF0845091C65F9EA001F2767 /* UIButton+Whawhawhat.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0844E11C65F9EA001F2767 /* UIButton+Whawhawhat.m */; };
+		FF08450C1C65F9F2001F2767 /* whawhawhatLib.h in Headers */ = {isa = PBXBuildFile; fileRef = FF08450A1C65F9F2001F2767 /* whawhawhatLib.h */; };
+		FF08450D1C65F9F2001F2767 /* whawhawhatLib.h in Headers */ = {isa = PBXBuildFile; fileRef = FF08450A1C65F9F2001F2767 /* whawhawhatLib.h */; };
+		FF08450E1C65F9F2001F2767 /* whawhawhatLib.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08450B1C65F9F2001F2767 /* whawhawhatLib.m */; };
+		FF08450F1C65F9F2001F2767 /* whawhawhatLib.m in Sources */ = {isa = PBXBuildFile; fileRef = FF08450B1C65F9F2001F2767 /* whawhawhatLib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +146,6 @@
 		9C531416285FE0AA923133A8C88F1FD1 /* Pods-whawhawhatLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-whawhawhatLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AB7294D882A6338DEB0C056D3457332B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD9AC175EF4EA8E9690D0ABAC271599E /* whawhawhatLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = whawhawhatLib.modulemap; sourceTree = "<group>"; };
-		AF78A9508F9FF8D92A58B7AD2F34EE9C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC492166BD5DAB7A44780F05BBC7E1FF /* Pods-whawhawhatLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-whawhawhatLib_Example-resources.sh"; sourceTree = "<group>"; };
 		C8BC755BBFA9B61FC39013FE87EDA598 /* Pods-whawhawhatLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-whawhawhatLib_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +156,46 @@
 		EC474CBF77111EE6CDCE3FA905EBC252 /* whawhawhatLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whawhawhatLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F132E51BE23BE7B1B2849B306B82B3AF /* Pods_whawhawhatLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whawhawhatLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4BD6FFCCD9D4BECCBDACA9AB5D80850 /* whawhawhatLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "whawhawhatLib-dummy.m"; sourceTree = "<group>"; };
+		FF0844941C65F988001F2767 /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jastor.h; sourceTree = "<group>"; };
+		FF0844951C65F988001F2767 /* Jastor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jastor.m; sourceTree = "<group>"; };
+		FF0844961C65F988001F2767 /* JastorRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JastorRuntimeHelper.h; sourceTree = "<group>"; };
+		FF0844971C65F988001F2767 /* JastorRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JastorRuntimeHelper.m; sourceTree = "<group>"; };
+		FF0844A11C65F9AC001F2767 /* SCNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNavigationBar.h; sourceTree = "<group>"; };
+		FF0844A21C65F9AC001F2767 /* SCNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNavigationBar.m; sourceTree = "<group>"; };
+		FF0844A81C65F9BF001F2767 /* TWAppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAppUtils.h; sourceTree = "<group>"; };
+		FF0844A91C65F9BF001F2767 /* TWAppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAppUtils.m; sourceTree = "<group>"; };
+		FF0844AA1C65F9BF001F2767 /* TWDeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWDeviceUtils.h; sourceTree = "<group>"; };
+		FF0844AB1C65F9BF001F2767 /* TWDeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWDeviceUtils.m; sourceTree = "<group>"; };
+		FF0844B51C65F9D7001F2767 /* TWCheckbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCheckbox.h; sourceTree = "<group>"; };
+		FF0844B61C65F9D7001F2767 /* TWCheckbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCheckbox.m; sourceTree = "<group>"; };
+		FF0844B71C65F9D7001F2767 /* TWRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWRectView.h; sourceTree = "<group>"; };
+		FF0844B81C65F9D7001F2767 /* TWRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWRectView.m; sourceTree = "<group>"; };
+		FF0844B91C65F9D7001F2767 /* TWIndexedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWIndexedButton.h; sourceTree = "<group>"; };
+		FF0844BA1C65F9D7001F2767 /* TWIndexedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWIndexedButton.m; sourceTree = "<group>"; };
+		FF0844BB1C65F9D7001F2767 /* TWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWView.h; sourceTree = "<group>"; };
+		FF0844BC1C65F9D7001F2767 /* TWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWView.m; sourceTree = "<group>"; };
+		FF0844CE1C65F9EA001F2767 /* NSString+Whawhawhat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Whawhawhat.h"; sourceTree = "<group>"; };
+		FF0844CF1C65F9EA001F2767 /* NSString+Whawhawhat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Whawhawhat.m"; sourceTree = "<group>"; };
+		FF0844D01C65F9EA001F2767 /* NSData+Whawhawhat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Whawhawhat.h"; sourceTree = "<group>"; };
+		FF0844D11C65F9EA001F2767 /* NSData+Whawhawhat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Whawhawhat.m"; sourceTree = "<group>"; };
+		FF0844D21C65F9EA001F2767 /* UITableView+Whawhawhat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Whawhawhat.h"; sourceTree = "<group>"; };
+		FF0844D31C65F9EA001F2767 /* UITableView+Whawhawhat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Whawhawhat.m"; sourceTree = "<group>"; };
+		FF0844D41C65F9EA001F2767 /* UIColor+Whawhawhat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Whawhawhat.h"; sourceTree = "<group>"; };
+		FF0844D51C65F9EA001F2767 /* UIColor+Whawhawhat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Whawhawhat.m"; sourceTree = "<group>"; };
+		FF0844D61C65F9EA001F2767 /* UIImage+Whawhawhat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Whawhawhat.h"; sourceTree = "<group>"; };
+		FF0844D71C65F9EA001F2767 /* UIImage+Whawhawhat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Whawhawhat.m"; sourceTree = "<group>"; };
+		FF0844D81C65F9EA001F2767 /* NSDate+Whawhawhat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Whawhawhat.h"; sourceTree = "<group>"; };
+		FF0844D91C65F9EA001F2767 /* NSDate+Whawhawhat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Whawhawhat.m"; sourceTree = "<group>"; };
+		FF0844DA1C65F9EA001F2767 /* UINavigationController+Whawhawhat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Whawhawhat.h"; sourceTree = "<group>"; };
+		FF0844DB1C65F9EA001F2767 /* UINavigationController+Whawhawhat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Whawhawhat.m"; sourceTree = "<group>"; };
+		FF0844DC1C65F9EA001F2767 /* UILabel+Whawhawhat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Whawhawhat.h"; sourceTree = "<group>"; };
+		FF0844DD1C65F9EA001F2767 /* UILabel+Whawhawhat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Whawhawhat.m"; sourceTree = "<group>"; };
+		FF0844DE1C65F9EA001F2767 /* UIView+Whawhawhat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Whawhawhat.h"; sourceTree = "<group>"; };
+		FF0844DF1C65F9EA001F2767 /* UIView+Whawhawhat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Whawhawhat.m"; sourceTree = "<group>"; };
+		FF0844E01C65F9EA001F2767 /* UIButton+Whawhawhat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Whawhawhat.h"; sourceTree = "<group>"; };
+		FF0844E11C65F9EA001F2767 /* UIButton+Whawhawhat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Whawhawhat.m"; sourceTree = "<group>"; };
+		FF08450A1C65F9F2001F2767 /* whawhawhatLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whawhawhatLib.h; sourceTree = "<group>"; };
+		FF08450B1C65F9F2001F2767 /* whawhawhatLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = whawhawhatLib.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,7 +328,12 @@
 		BD51ABE4BC9EBB56B383EC943503951E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AF78A9508F9FF8D92A58B7AD2F34EE9C /* ReplaceMe.m */,
+				FF08450A1C65F9F2001F2767 /* whawhawhatLib.h */,
+				FF08450B1C65F9F2001F2767 /* whawhawhatLib.m */,
+				FF0844CD1C65F9DC001F2767 /* Category */,
+				FF0844B41C65F9C9001F2767 /* Controls */,
+				FF0844A71C65F9B3001F2767 /* App */,
+				FF0844851C65F331001F2767 /* ThirdParty */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -246,6 +369,88 @@
 			path = "Example/Pods/Target Support Files/whawhawhatLib";
 			sourceTree = "<group>";
 		};
+		FF0844851C65F331001F2767 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				FF0844A01C65F99F001F2767 /* SCNavigationBar */,
+				FF0844931C65F976001F2767 /* Jastor */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		FF0844931C65F976001F2767 /* Jastor */ = {
+			isa = PBXGroup;
+			children = (
+				FF0844941C65F988001F2767 /* Jastor.h */,
+				FF0844951C65F988001F2767 /* Jastor.m */,
+				FF0844961C65F988001F2767 /* JastorRuntimeHelper.h */,
+				FF0844971C65F988001F2767 /* JastorRuntimeHelper.m */,
+			);
+			path = Jastor;
+			sourceTree = "<group>";
+		};
+		FF0844A01C65F99F001F2767 /* SCNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				FF0844A11C65F9AC001F2767 /* SCNavigationBar.h */,
+				FF0844A21C65F9AC001F2767 /* SCNavigationBar.m */,
+			);
+			path = SCNavigationBar;
+			sourceTree = "<group>";
+		};
+		FF0844A71C65F9B3001F2767 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FF0844A81C65F9BF001F2767 /* TWAppUtils.h */,
+				FF0844A91C65F9BF001F2767 /* TWAppUtils.m */,
+				FF0844AA1C65F9BF001F2767 /* TWDeviceUtils.h */,
+				FF0844AB1C65F9BF001F2767 /* TWDeviceUtils.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FF0844B41C65F9C9001F2767 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				FF0844B51C65F9D7001F2767 /* TWCheckbox.h */,
+				FF0844B61C65F9D7001F2767 /* TWCheckbox.m */,
+				FF0844B71C65F9D7001F2767 /* TWRectView.h */,
+				FF0844B81C65F9D7001F2767 /* TWRectView.m */,
+				FF0844B91C65F9D7001F2767 /* TWIndexedButton.h */,
+				FF0844BA1C65F9D7001F2767 /* TWIndexedButton.m */,
+				FF0844BB1C65F9D7001F2767 /* TWView.h */,
+				FF0844BC1C65F9D7001F2767 /* TWView.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		FF0844CD1C65F9DC001F2767 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FF0844CE1C65F9EA001F2767 /* NSString+Whawhawhat.h */,
+				FF0844CF1C65F9EA001F2767 /* NSString+Whawhawhat.m */,
+				FF0844D01C65F9EA001F2767 /* NSData+Whawhawhat.h */,
+				FF0844D11C65F9EA001F2767 /* NSData+Whawhawhat.m */,
+				FF0844D21C65F9EA001F2767 /* UITableView+Whawhawhat.h */,
+				FF0844D31C65F9EA001F2767 /* UITableView+Whawhawhat.m */,
+				FF0844D41C65F9EA001F2767 /* UIColor+Whawhawhat.h */,
+				FF0844D51C65F9EA001F2767 /* UIColor+Whawhawhat.m */,
+				FF0844D61C65F9EA001F2767 /* UIImage+Whawhawhat.h */,
+				FF0844D71C65F9EA001F2767 /* UIImage+Whawhawhat.m */,
+				FF0844D81C65F9EA001F2767 /* NSDate+Whawhawhat.h */,
+				FF0844D91C65F9EA001F2767 /* NSDate+Whawhawhat.m */,
+				FF0844DA1C65F9EA001F2767 /* UINavigationController+Whawhawhat.h */,
+				FF0844DB1C65F9EA001F2767 /* UINavigationController+Whawhawhat.m */,
+				FF0844DC1C65F9EA001F2767 /* UILabel+Whawhawhat.h */,
+				FF0844DD1C65F9EA001F2767 /* UILabel+Whawhawhat.m */,
+				FF0844DE1C65F9EA001F2767 /* UIView+Whawhawhat.h */,
+				FF0844DF1C65F9EA001F2767 /* UIView+Whawhawhat.m */,
+				FF0844E01C65F9EA001F2767 /* UIButton+Whawhawhat.h */,
+				FF0844E11C65F9EA001F2767 /* UIButton+Whawhawhat.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -261,7 +466,27 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF08449D1C65F988001F2767 /* JastorRuntimeHelper.h in Headers */,
 				89A8DCCCD6E4B99A9983BD0A8628ACD5 /* whawhawhatLib-umbrella.h in Headers */,
+				FF0844A41C65F9AC001F2767 /* SCNavigationBar.h in Headers */,
+				FF0845031C65F9EA001F2767 /* UIView+Whawhawhat.h in Headers */,
+				FF0844F31C65F9EA001F2767 /* UIImage+Whawhawhat.h in Headers */,
+				FF0844E71C65F9EA001F2767 /* NSData+Whawhawhat.h in Headers */,
+				FF0844BE1C65F9D7001F2767 /* TWCheckbox.h in Headers */,
+				FF0844CA1C65F9D7001F2767 /* TWView.h in Headers */,
+				FF0844F71C65F9EA001F2767 /* NSDate+Whawhawhat.h in Headers */,
+				FF0844B11C65F9BF001F2767 /* TWDeviceUtils.h in Headers */,
+				FF0844EB1C65F9EA001F2767 /* UITableView+Whawhawhat.h in Headers */,
+				FF0844FB1C65F9EA001F2767 /* UINavigationController+Whawhawhat.h in Headers */,
+				FF08450D1C65F9F2001F2767 /* whawhawhatLib.h in Headers */,
+				FF0844C61C65F9D7001F2767 /* TWIndexedButton.h in Headers */,
+				FF0844991C65F988001F2767 /* Jastor.h in Headers */,
+				FF0844C21C65F9D7001F2767 /* TWRectView.h in Headers */,
+				FF0844AD1C65F9BF001F2767 /* TWAppUtils.h in Headers */,
+				FF0845071C65F9EA001F2767 /* UIButton+Whawhawhat.h in Headers */,
+				FF0844EF1C65F9EA001F2767 /* UIColor+Whawhawhat.h in Headers */,
+				FF0844E31C65F9EA001F2767 /* NSString+Whawhawhat.h in Headers */,
+				FF0844FF1C65F9EA001F2767 /* UILabel+Whawhawhat.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +494,27 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF08449C1C65F988001F2767 /* JastorRuntimeHelper.h in Headers */,
 				6BCA2BB5F7D7BDEEC139BB6E8A8DFFB3 /* Pods-whawhawhatLib_Example-umbrella.h in Headers */,
+				FF0844A31C65F9AC001F2767 /* SCNavigationBar.h in Headers */,
+				FF0845021C65F9EA001F2767 /* UIView+Whawhawhat.h in Headers */,
+				FF0844F21C65F9EA001F2767 /* UIImage+Whawhawhat.h in Headers */,
+				FF0844E61C65F9EA001F2767 /* NSData+Whawhawhat.h in Headers */,
+				FF0844BD1C65F9D7001F2767 /* TWCheckbox.h in Headers */,
+				FF0844C91C65F9D7001F2767 /* TWView.h in Headers */,
+				FF0844F61C65F9EA001F2767 /* NSDate+Whawhawhat.h in Headers */,
+				FF0844B01C65F9BF001F2767 /* TWDeviceUtils.h in Headers */,
+				FF0844EA1C65F9EA001F2767 /* UITableView+Whawhawhat.h in Headers */,
+				FF0844FA1C65F9EA001F2767 /* UINavigationController+Whawhawhat.h in Headers */,
+				FF08450C1C65F9F2001F2767 /* whawhawhatLib.h in Headers */,
+				FF0844C51C65F9D7001F2767 /* TWIndexedButton.h in Headers */,
+				FF0844981C65F988001F2767 /* Jastor.h in Headers */,
+				FF0844C11C65F9D7001F2767 /* TWRectView.h in Headers */,
+				FF0844AC1C65F9BF001F2767 /* TWAppUtils.h in Headers */,
+				FF0845061C65F9EA001F2767 /* UIButton+Whawhawhat.h in Headers */,
+				FF0844EE1C65F9EA001F2767 /* UIColor+Whawhawhat.h in Headers */,
+				FF0844E21C65F9EA001F2767 /* NSString+Whawhawhat.h in Headers */,
+				FF0844FE1C65F9EA001F2767 /* UILabel+Whawhawhat.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +652,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0844E81C65F9EA001F2767 /* NSData+Whawhawhat.m in Sources */,
+				FF0845081C65F9EA001F2767 /* UIButton+Whawhawhat.m in Sources */,
+				FF0844B21C65F9BF001F2767 /* TWDeviceUtils.m in Sources */,
+				FF08449E1C65F988001F2767 /* JastorRuntimeHelper.m in Sources */,
+				FF08449A1C65F988001F2767 /* Jastor.m in Sources */,
+				FF0844FC1C65F9EA001F2767 /* UINavigationController+Whawhawhat.m in Sources */,
+				FF0844EC1C65F9EA001F2767 /* UITableView+Whawhawhat.m in Sources */,
+				FF0845001C65F9EA001F2767 /* UILabel+Whawhawhat.m in Sources */,
+				FF0844E41C65F9EA001F2767 /* NSString+Whawhawhat.m in Sources */,
+				FF0844C31C65F9D7001F2767 /* TWRectView.m in Sources */,
 				F96EA8BE5E384659616766676F39CD5F /* Pods-whawhawhatLib_Example-dummy.m in Sources */,
+				FF0844A51C65F9AC001F2767 /* SCNavigationBar.m in Sources */,
+				FF0844F01C65F9EA001F2767 /* UIColor+Whawhawhat.m in Sources */,
+				FF0844AE1C65F9BF001F2767 /* TWAppUtils.m in Sources */,
+				FF0844BF1C65F9D7001F2767 /* TWCheckbox.m in Sources */,
+				FF08450E1C65F9F2001F2767 /* whawhawhatLib.m in Sources */,
+				FF0844F81C65F9EA001F2767 /* NSDate+Whawhawhat.m in Sources */,
+				FF0844C71C65F9D7001F2767 /* TWIndexedButton.m in Sources */,
+				FF0844F41C65F9EA001F2767 /* UIImage+Whawhawhat.m in Sources */,
+				FF0844CB1C65F9D7001F2767 /* TWView.m in Sources */,
+				FF0845041C65F9EA001F2767 /* UIView+Whawhawhat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +688,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2EA15805A1AD03F0DD05A4F317CC360 /* ReplaceMe.m in Sources */,
+				FF0845091C65F9EA001F2767 /* UIButton+Whawhawhat.m in Sources */,
+				FF0844C41C65F9D7001F2767 /* TWRectView.m in Sources */,
+				FF0844ED1C65F9EA001F2767 /* UITableView+Whawhawhat.m in Sources */,
+				FF08450F1C65F9F2001F2767 /* whawhawhatLib.m in Sources */,
+				FF0844B31C65F9BF001F2767 /* TWDeviceUtils.m in Sources */,
+				FF0844C01C65F9D7001F2767 /* TWCheckbox.m in Sources */,
+				FF0844AF1C65F9BF001F2767 /* TWAppUtils.m in Sources */,
+				FF0844C81C65F9D7001F2767 /* TWIndexedButton.m in Sources */,
+				FF0845051C65F9EA001F2767 /* UIView+Whawhawhat.m in Sources */,
+				FF0844E91C65F9EA001F2767 /* NSData+Whawhawhat.m in Sources */,
+				FF0844CC1C65F9D7001F2767 /* TWView.m in Sources */,
+				FF0844A61C65F9AC001F2767 /* SCNavigationBar.m in Sources */,
 				C20805B5086999A83AD66696D413A5AC /* whawhawhatLib-dummy.m in Sources */,
+				FF08449B1C65F988001F2767 /* Jastor.m in Sources */,
+				FF08449F1C65F988001F2767 /* JastorRuntimeHelper.m in Sources */,
+				FF0844E51C65F9EA001F2767 /* NSString+Whawhawhat.m in Sources */,
+				FF0845011C65F9EA001F2767 /* UILabel+Whawhawhat.m in Sources */,
+				FF0844F11C65F9EA001F2767 /* UIColor+Whawhawhat.m in Sources */,
+				FF0844F91C65F9EA001F2767 /* NSDate+Whawhawhat.m in Sources */,
+				FF0844F51C65F9EA001F2767 /* UIImage+Whawhawhat.m in Sources */,
+				FF0844FD1C65F9EA001F2767 /* UINavigationController+Whawhawhat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
