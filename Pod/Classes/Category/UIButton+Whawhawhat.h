@@ -20,9 +20,9 @@
 
 -(void)setBackgroundColor:(UIColor *)color forState:(UIControlState)state;
 
-//-(void)setFont:(UIFont *)font;
-//-(void)setTitle:(NSString *)title;
-//-(void)setTitleColor:(UIColor *)color;
+-(void)setFont:(UIFont *)font;
+-(void)setTitle:(NSString *)title;
+-(void)setTitleColor:(UIColor *)color;
 
 //-(void)_setFont:(UIFont *)font;
 //-(UIFont *)_font;
