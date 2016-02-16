@@ -301,4 +301,33 @@
         tempStr = [tempStr stringByReplacingCharactersInRange:r withString:@""];
     return tempStr;
 }
+
+/*
+ URL
+ */
+-(NSString *)urlParameterForKey:(NSString *)key{
+    @try {
+        NSURLComponents *urlComponents = [NSURLComponents componentsWithURL:[NSURL URLWithString:self] resolvingAgainstBaseURL:NO];
+        NSArray *queryItems = urlComponents.queryItems;
+        NSString *param = [self valueForKey:key fromQueryItems:queryItems];
+        return param;
+    }
+    @catch (NSException *exception) {
+        
+    }
+    @finally {
+        
+    }
+    return nil;
+}
+
+- (NSString *)valueForKey:(NSString *)key
+           fromQueryItems:(NSArray *)queryItems
+{
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"name=%@", key];
+    NSURLQueryItem *queryItem = [[queryItems
+                                  filteredArrayUsingPredicate:predicate]
+                                 firstObject];
+    return queryItem.value;
+}
 @end

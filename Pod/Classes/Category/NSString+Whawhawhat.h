@@ -37,4 +37,10 @@ HTML
  */
 -(NSMutableArray *)imgURLs;
 -(NSString *)removeHtmlTags:(NSString *)str;
+
+/*
+ URL
+ */
+-(NSString *)urlParameterForKey:(NSString *)key;
+
 @end
