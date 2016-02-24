@@ -36,7 +36,7 @@
 HTML
  */
 -(NSMutableArray *)imgURLs;
--(NSString *)removeHtmlTags:(NSString *)str;
+-(NSString *)removeHtmlTags;
 
 /*
  URL
