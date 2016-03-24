@@ -13,6 +13,7 @@
 - (CGFloat)width;
 - (CGFloat)height;
 - (UIImage *)scaledToWidth:(float)i_width;
+- (UIImage *)scaledToHeight:(float)i_height;
 - (UIImage *)scaledToSize:(CGSize)size;
 
 + (UIImage *)imageWithColor:(UIColor *)color;

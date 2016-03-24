@@ -36,6 +36,24 @@
     return newImage;
 }
 
+-(UIImage *)scaledToHeight:(float)i_height{
+    if (self.size.height <= i_height) {
+        return self;
+    }
+    
+    float oldHeight = self.size.height;
+    float scaleFactor = i_height / oldHeight;
+    
+    float newWidth = self.size.width * scaleFactor;
+    float newHeight = i_height;
+    
+    UIGraphicsBeginImageContext(CGSizeMake(newWidth, newHeight));
+    [self drawInRect:CGRectMake(0, 0, newWidth, newHeight)];
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return newImage;
+}
+
 -(UIImage *)scaledToSize:(CGSize)size{
     UIGraphicsBeginImageContext(size);
     CGRect r = CGRectZero;
