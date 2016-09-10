@@ -12,7 +12,11 @@
 @implementation TWAppUtils
 
 +(NSString *)appVersion{
-    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+    NSString * version = nil;
+    version = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+    if (!version) {
+        version = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleVersionKey];
+    }
     return version;
 }
 
