@@ -38,9 +38,10 @@
         
         CGRect iconRect = CGRectZero;
         iconRect.origin.x = xpos;
-        iconRect.size = offImage.size;
-        iconRect.origin.y = roundf(0.5f*(frame.size.height - offImage.size.height));
+        iconRect.size = CGSizeMake(f.pointSize, f.pointSize);
+        iconRect.origin.y = roundf(0.5f*(frame.size.height - iconRect.size.height));
         icon = [[UIImageView alloc] initWithFrame:iconRect];
+        icon.contentMode = UIViewContentModeScaleAspectFit;
         [self addSubview:icon];
         
         CGRect labelRect = CGRectMake(iconRect.origin.x + iconRect.size.width + d,
@@ -83,6 +84,23 @@
 -(void)setSelected:(BOOL)__selected{
     selected = __selected;
     [self refreshIcon];
+}
+
+-(void)sizeToFit{
+    NSDictionary *attrs = [NSDictionary dictionaryWithObjectsAndKeys:
+                           label.font, NSFontAttributeName, nil];
+    NSMutableAttributedString *attributedText =
+    [[NSMutableAttributedString alloc] initWithString:labelString
+                                           attributes:attrs];
+    CGRect rect = [attributedText boundingRectWithSize:CGSizeMake(MAXFLOAT, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading context:nil];
+    
+    CGRect r = label.frame;
+    r.size.width = rect.size.width;
+    label.frame = r;
+    
+    CGRect r1 = self.frame;
+    r1.size.width = r.origin.x + r.size.width;
+    self.frame = r1;
 }
 
 +(TWCheckbox *)checkboxWithFrame:(CGRect)r andLabel:(NSString *)s andImagePath:(NSString *)p1 andSelectedImagePath:(NSString *)p2 andInitValue:(BOOL)b andFont:(UIFont *)f andLabelColor:(UIColor *)color andIconLabelDistance:(CGFloat)d andIconLeft:(CGFloat)xpos{

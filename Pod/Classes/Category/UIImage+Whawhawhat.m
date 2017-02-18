@@ -93,4 +93,42 @@
     
     return img;
 }
+
+-(CGSize)sizeWithWidth:(CGFloat)w{
+    CGFloat h = self.height*w/self.width;
+    return CGSizeMake(w, h);
+}
+
+-(CGSize)sizeWithHeight:(CGFloat)h{
+    CGFloat w = self.width*h/self.height;
+    return CGSizeMake(w, h);
+}
+
+- (UIImage *)imageMaskedAndTintedWithColor:(UIColor *)color
+{
+    NSParameterAssert(color);
+    
+    UIGraphicsBeginImageContextWithOptions(self.size, NO, self.scale);
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    
+    CGRect bounds = (CGRect){CGPointZero, self.size};
+    
+    // do a vertical flip so that image is correct
+    CGAffineTransform flipVertical = CGAffineTransformMake(1, 0, 0, -1, 0, bounds.size.height);
+    CGContextConcatCTM(ctx, flipVertical);
+    
+    // create mask of image
+    CGContextClipToMask(ctx, bounds, self.CGImage);
+    
+    // fill with given color
+    [color setFill];
+    CGContextFillRect(ctx, bounds);
+    
+    // get back new image
+    UIImage *retImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return retImage;
+}
+
 @end

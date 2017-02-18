@@ -43,4 +43,14 @@ HTML
  */
 -(NSString *)urlParameterForKey:(NSString *)key;
 
+-(NSMutableAttributedString *)attributedStringWithFont:(UIFont *)font;
+-(CGFloat)attributedHeightWithFont:(UIFont *)font forWidth:(CGFloat)w;
+
+-(NSMutableAttributedString *)attributedStringWithFont:(UIFont *)font textAlignment:(NSTextAlignment)a;
+-(NSMutableAttributedString *)attributedStringWithFont:(UIFont *)font textAlignment:(NSTextAlignment)a lineSpace:(CGFloat)space;
+-(CGFloat)attributedHeightWithFont:(UIFont *)font forWidth:(CGFloat)w textAlignment:(NSTextAlignment)a;
+-(CGSize)attributedSizeWithFont:(UIFont *)font forWidth:(CGFloat)w textAlignment:(NSTextAlignment)a;
+-(CGSize)attributedSizeWithFont:(UIFont *)font;
+
++(CGSize)attributedSizeWithString:(NSAttributedString *)str forWidth:(CGFloat)w;
 @end

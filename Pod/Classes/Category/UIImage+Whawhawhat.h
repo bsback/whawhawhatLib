@@ -20,4 +20,9 @@
 
 +(UIImage *)scaleNineImageWithImageName:(NSString *)imageName left:(CGFloat)l top:(CGFloat)t;
 +(UIImage *)scaleNineImageWithImageName:(NSString *)imageName left:(CGFloat)l top:(CGFloat)t right:(CGFloat)r bottom:(CGFloat)b;
+
+-(CGSize)sizeWithWidth:(CGFloat)w;
+-(CGSize)sizeWithHeight:(CGFloat)h;
+
+- (UIImage *)imageMaskedAndTintedWithColor:(UIColor *)color;
 @end

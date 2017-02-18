@@ -330,4 +330,58 @@
                                  firstObject];
     return queryItem.value;
 }
+
+
+-(NSMutableAttributedString *)attributedStringWithFont:(UIFont *)font{
+    return [self attributedStringWithFont:font textAlignment:NSTextAlignmentLeft];
+}
+
+-(NSMutableAttributedString *)attributedStringWithFont:(UIFont *)font textAlignment:(NSTextAlignment)a{
+    return [self attributedStringWithFont:font textAlignment:a lineSpace:3];
+}
+
+-(NSMutableAttributedString *)attributedStringWithFont:(UIFont *)font textAlignment:(NSTextAlignment)a lineSpace:(CGFloat)space{
+    NSString *str = self;
+
+    NSDictionary *subAttrs = [NSDictionary dictionaryWithObjectsAndKeys:
+                              font, NSFontAttributeName, nil];
+    
+    NSMutableAttributedString *attributedText =
+    [[NSMutableAttributedString alloc] initWithString:str
+                                           attributes:subAttrs];
+    
+    if ([str containsString:@"<sup>"]) {
+        
+    }
+    
+    NSMutableParagraphStyle *paragrahStyle = [[NSMutableParagraphStyle alloc] init];
+    paragrahStyle.alignment = a;
+    [paragrahStyle setLineSpacing:space];
+    [attributedText addAttribute:NSParagraphStyleAttributeName value:paragrahStyle range:NSMakeRange(0,str.length)];
+    
+    return attributedText;
+}
+
+-(CGFloat)attributedHeightWithFont:(UIFont *)font forWidth:(CGFloat)w{
+    return [self attributedHeightWithFont:font forWidth:w textAlignment:NSTextAlignmentLeft];
+}
+
+-(CGFloat)attributedHeightWithFont:(UIFont *)font forWidth:(CGFloat)w textAlignment:(NSTextAlignment)a{
+    NSAttributedString *str = [self attributedStringWithFont:font textAlignment:a];
+    CGRect rect = [str boundingRectWithSize:CGSizeMake(w, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading context:nil];
+    return rect.size.height;
+}
+
+-(CGSize)attributedSizeWithFont:(UIFont *)font forWidth:(CGFloat)w textAlignment:(NSTextAlignment)a{
+    NSAttributedString *str = [self attributedStringWithFont:font textAlignment:a];
+    CGRect rect = [str boundingRectWithSize:CGSizeMake(w, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading context:nil];
+    return rect.size;
+}
+
+-(CGSize)attributedSizeWithFont:(UIFont *)font{
+    NSAttributedString *str = [self attributedStringWithFont:font];
+    CGRect rect = [str boundingRectWithSize:CGSizeMake(MAXFLOAT, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading context:nil];
+    return rect.size;
+}
+
 @end
