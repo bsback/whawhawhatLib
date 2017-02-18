@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 whawhawhat. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface NSString (Whawhawhat)
 
