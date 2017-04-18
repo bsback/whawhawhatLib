@@ -9,8 +9,16 @@
 #import "UILabel+Whawhawhat.h"
 #import "UIImage+Whawhawhat.h"
 #import <QuartzCore/QuartzCore.h>
+#import "NSString+Whawhawhat.h"
 
 @implementation UILabel (Whawhawhat)
+
+-(void)widthToFit{
+    CGSize s = [self.text attributedSizeWithFont:self.font];
+    CGRect r = self.frame;
+    r.size.width = s.width + 1;
+    self.frame = r;
+}
 
 -(void)setGradientColorByImage:(UIImage *)img stretchImage:(BOOL)b applyToHighlight:(BOOL)a{
     if (!b) {

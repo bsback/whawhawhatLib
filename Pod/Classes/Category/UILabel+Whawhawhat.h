@@ -10,6 +10,8 @@
 
 @interface UILabel (Whawhawhat)
 
+-(void)widthToFit;
+
 -(void)setGradientColorByImage:(UIImage *)img stretchImage:(BOOL)b;
 -(void)setGradientColorByImage:(UIImage *)img stretchImage:(BOOL)b applyToHighlight:(BOOL)a;
 
