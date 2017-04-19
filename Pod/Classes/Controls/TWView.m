@@ -94,5 +94,15 @@
 //    CGPathRelease(path);
 }
 
++(CGFloat)viewHeight{
+    return 0;
+}
 
++(CGFloat)viewWidth{
+    return 0;
+}
+
++(CGSize)viewSize{
+    return CGSizeMake([[self class] viewWidth], [[self class] viewHeight]);
+}
 @end

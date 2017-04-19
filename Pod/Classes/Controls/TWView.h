@@ -28,4 +28,8 @@
 - (void)setCornerRadius:(CGFloat)val;
 
 -(void)setCornerRadiusTopLeft:(CGFloat)tl topRight:(CGFloat)tr bottomRight:(CGFloat)br bottomLeft:(CGFloat)bl;
+
++(CGFloat)viewHeight;
++(CGFloat)viewWidth;
++(CGSize)viewSize;
 @end
