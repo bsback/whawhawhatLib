@@ -9,6 +9,8 @@
 
 @interface Jastor : NSObject <NSCoding>
 
+@property BOOL boolFlag;
+
 @property (nonatomic, copy) NSString *objectId;
 + (id)objectFromDictionary:(NSDictionary*)dictionary;
 
