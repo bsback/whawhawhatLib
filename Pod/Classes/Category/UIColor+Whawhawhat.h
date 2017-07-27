@@ -12,4 +12,7 @@
 + (UIColor *)colorWithHexString:(NSString *)hexString;
 
 -(UIImage *)image;
+
+- (UIColor *)darkerColor;
+- (UIColor *)lighterColor;
 @end
